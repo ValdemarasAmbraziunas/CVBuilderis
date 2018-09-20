@@ -1,0 +1,22 @@
+{
+  "CVFormModel": {
+    "AjaxTarget": "target",
+    "Sections": [
+      {
+        "Title": "Personal Info",
+        "Fields": [
+          { "label": "First Name" },
+          { "label": "Last Name" },
+          { "label": "Date of Birth" }
+        ]
+      },
+      {
+        "Title": "Education Info",
+        "Fields": [
+          { "label": "School" },
+          { "label": "University" }
+        ]
+      }
+    ]
+  }
+}

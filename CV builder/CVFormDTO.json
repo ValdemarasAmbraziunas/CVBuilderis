@@ -1,0 +1,33 @@
+{
+  "CVFormModel": {
+    "AjaxTarget": "/Builder/GenerateDocument",
+    "Sections": [
+      {
+        "Title": "Personal Info",
+        "Fields": [
+          { "Label": "First Name", "FieldName": "fName", "Type": "text", "Mandatory": "true" },
+          { "Label": "Last Name", "FieldName": "lName", "Type": "text", "Mandatory": "true" },
+          { "Label": "Date of Birth","FieldName": "bDate", "Type": "date", "Mandatory": "true" },
+          { "Label": "Photo","FieldName": "photo", "Type": "file", "Mandatory": "false" }
+        ]
+      },
+      {
+        "Title": "Education Info",
+        "Fields": [
+          {
+            "Label": "School",
+            "FieldName": "school",
+            "Type": "text",
+            "Mandatory": "false"
+          },
+          {
+            "Label": "University",
+            "FieldName": "university",
+            "Type": "text",
+            "Mandatory": "false"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"MenuModel": {
+	"Items": [
+		{
+			"Title": "Home"
+		},
+		{
+			"Title": "Build CV"
+		}
+		]
+	}
+}

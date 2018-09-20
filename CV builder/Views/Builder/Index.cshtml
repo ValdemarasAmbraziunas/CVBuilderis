@@ -1,0 +1,43 @@
+﻿@model CV_builder.Models.CVModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@*<div>
+    @using (Html.BeginForm("GenerateDocument", "Builder", FormMethod.Post))
+    {
+        
+        for(int i = 0; i < Model.AllSections.Count; i++)
+        {
+            @Html.HiddenFor(m => m.AllSections[i].Id)
+            @Html.HiddenFor(m => m.AllSections[i].Name)
+            <label style="font-size:x-large;padding-top:10px;border-bottom:1px solid gray;width:100%">
+                @Html.Label(Model.AllSections[i].Name)
+                </label>
+                Html.TextBoxFor(m => m[i].Name)
+                <dl class="dl-horizontal">
+                @if (Model.AllSections[i].AllFields != null)
+                {
+                    for (int j = 0; j < Model.AllSections[i].AllFields.Count; j++)
+                    {
+                        @Html.HiddenFor(m => m.AllSections[i].AllFields[j].Id)
+                        @Html.HiddenFor(m => m.AllSections[i].AllFields[j].Name)
+
+                        <label style="width:200px;padding-left:10px">
+                            @Html.Label(Model.AllSections[i].AllFields[j].Name)
+                        </label>
+                        @Html.TextBoxFor(m => m.AllSections[i].AllFields[j].Value, new { @Value = string.Empty })
+                        @Html.Display(Model[i].Fields[j].Name)
+                        @Html.TextBoxFor(m => m[i].Fields[j].Name, new { value = "" })
+                        <br/>
+                    }
+                }
+                </dl>
+
+
+                }
+                <input type="submit" value="Click Me!" />
+                }
+
+</div>*@

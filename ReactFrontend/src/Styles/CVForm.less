@@ -1,0 +1,82 @@
+﻿.CV-form {
+    min-width: 1000px;
+    margin: auto;
+    height: 55vh;
+    position: relative;
+    display: table;
+    padding-bottom: 25px;
+    padding-top: 15px;
+
+    .section-navigation-bar {
+        background-color: #424242;
+        height: 100%;
+        display: table-cell;
+        width: 200px;
+
+        .navigation-tab {
+            color: #BDBDBD;
+            display: block;
+            padding: 15px;
+            font-size: 18px;
+            text-align: center;
+
+            &:hover {
+                background-color: #2E2E2E;
+                color: white;
+                text-decoration: none;
+            }
+
+            &.active {
+                color: yellow;
+            }
+        }
+    }
+
+    .section {
+        padding: 10px;
+        padding-left: 20px;
+
+        .section-title {
+            color: black;
+            font-size: 18px;
+            padding-bottom: 6px;
+        }
+
+        .mandatory label::after {
+            color: #e32;
+            content: ' *';
+            display: inline;
+        }
+
+        .btn {
+            background-color: azure;
+        }
+
+
+        .actionBtn {
+            display: none;
+            margin-right: 6px;
+        }
+
+        .section-item {
+            &:hover .actionBtn {
+                display: inline;
+            }
+        }
+    }
+
+    .button-area {
+        padding: 0 12px;
+
+        .btn {
+            margin: 0px 6px;
+        }
+    }
+
+    .error-container {
+        margin: 20px;
+        border: 1px solid red;
+        padding: 10px;
+        background-color: blanchedalmond;
+    }
+}

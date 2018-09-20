@@ -1,0 +1,1 @@
+lessc "ReactFrontend/src/Styles/Styles.less" "CV Builder/Content/Styles.css"

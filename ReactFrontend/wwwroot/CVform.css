@@ -1,0 +1,30 @@
+.CV-form {
+    width: 1000px;
+    margin: auto;
+    padding: 10px 20px;
+    display: -webkit-box;
+}
+
+.CV-form .navigation-tab {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.CV-form .label {
+    color: black;
+    display: inline-block;
+    width: 100px;
+}
+
+.CV-form .field {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.CV-form .section { padding: 10px 10px 10px 20px; }
+
+.CV-form .section-title {
+    font-size: 18px;
+    padding-bottom: 6px;
+}

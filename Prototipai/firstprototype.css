@@ -1,0 +1,74 @@
+#website{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+#header{
+    margin: auto;
+    padding: 20px;
+    background-color: gray;
+}
+
+#symbol{
+    -webkit-text-fill-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48pt;
+}
+
+#login{
+    float: right;
+}
+
+#menu{
+    margin: auto;
+    background-color: lightgray;
+}
+
+#menulist{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#menulist > li{
+    display: inline;
+    -webkit-text-fill-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#menulist > li:hover{
+    background-color: #111;
+}
+
+#content{
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E8E8
+}
+
+#content > div > ul{
+    list-style-type: none;
+}
+
+#content > div > ul > li{
+    padding: 5px;
+}
+
+#content > div > ul > li > label{
+    display: inline-block;
+    width: 200px;
+}
+
+#content > div > h1{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#footer{
+    background-color: gray;
+    height: 100px;
+}
